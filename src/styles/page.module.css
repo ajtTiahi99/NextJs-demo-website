@@ -1,0 +1,79 @@
+.main {
+  height: 100vh;
+  align-content: center;
+}
+.Navlist{
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  background: #9a9a9a;
+  padding: 1em;
+  border-radius: 30px;
+}
+.link{
+  text-decoration: none;
+  font-size: 1.2em;
+  color: white
+}
+.postLink{
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+}
+.errorPage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20%;
+}
+.btn{
+  font-size: 1.3rem;
+  text-decoration: none;
+  background-color: rgb(87, 126, 255);
+  color: white;
+  padding: 1em;
+  border-radius: 32px;
+  cursor: pointer;
+}
+.userPost{
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  gap: 1.3em;
+  border-radius: 30px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0);
+  box-shadow: 1px 1px 10px grey;
+  padding: 10px;
+}
+.userPost h1{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.userPost span{
+  background: rgb(0, 217, 255);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 1.3rem;
+  color: white;
+  text-align: center;
+}
+.postDetail{
+  width: 80%;
+}
+/* Card */
+.cards{
+  gap: 30px;
+  background: #000;
+  height: 100vh;
+}
+.Card{
+  background-color: rgb(13, 173, 173);
+  width: 15em;
+  height: 15em;
+}
